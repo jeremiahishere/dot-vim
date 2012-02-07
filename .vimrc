@@ -11,6 +11,8 @@ version 6.3
 "------------------------------------------------------------------------------
 " Standard stuff.
 "------------------------------------------------------------------------------
+" 2-7-2012: adding spell checking by default for now
+set spell
 "no idea what these are for
 "something about formatting
 set cinoptions=:0,p0,t0
