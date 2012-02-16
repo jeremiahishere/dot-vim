@@ -110,20 +110,11 @@ set directory=~/.vim/tmp     " Where temporary files will go.
 " Function keys.
 "------------------------------------------------------------------------------
 
-" F1: Toggle hlsearch (highlight search matches).
-nmap <F1> :set hls!<CR>
+" toggle nerdtree
+map <F2> :NERDTreeToggle <cr>
 
-" F2: Toggle list (display unprintable characters).
-nnoremap <F2> :set list!<CR>
-
-" F3: Toggle expansion of tabs to spaces.
-nmap <F3> :set expandtab!<CR>
-
-" F4: Write a ChangeLog entry.
-map <F4> :r !date<CR>A Uwe Hermann <uwe@hermann-uwe.de><CR><CR> * |
-
-" F5: Insert current date.
-map <F5> :r !date<CR>
+" toggle taglist
+map <F3> :TlistToggle <cr>
 
 
 "------------------------------------------------------------------------------
