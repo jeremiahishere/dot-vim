@@ -109,15 +109,17 @@ set directory=~/.vim/tmp     " Where temporary files will go.
 " Setup fuzzy search
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+" Setup a line length reminder at the 100th column
+set textwidth=100
+set colorcolumn=+1
+hi ColorColumn guibg=#2e2e2e ctermbg=006
+
 "------------------------------------------------------------------------------
 " Function keys.
 "------------------------------------------------------------------------------
 
 " toggle nerdtree
 map <F2> :NERDTreeToggle <cr>
-
-" toggle taglist
-map <F3> :TlistToggle <cr>
 
 
 "------------------------------------------------------------------------------
