@@ -24,6 +24,10 @@ task :install do
   root = root.empty? ? ENV['HOME'] : root
 
   install_in root
+
+  puts "Installing plugins"
+  `vim +PluginInstall +qall`
+  puts "Done installing plugins"
 end
 
 namespace :install do
