@@ -97,6 +97,7 @@ hi ColorColumn guibg=#2e2e2e ctermbg=006
 
 " toggle nerdtree
 map <F2> :NERDTreeToggle <cr>
+let g:NERDTreeNodeDelimiter = "\u00a0" " Fix osx nerdtree issue
 
 "------------------------------------------------------------------------------
 " Local settings.
