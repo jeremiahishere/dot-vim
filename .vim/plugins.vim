@@ -13,6 +13,7 @@ Plugin 'vim-airline/vim-airline-themes'
 " syntax highlighters
 Plugin 'udalov/kotlin-vim'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'posva/vim-vue'
 
 call vundle#end()
 filetype plugin indent on
