@@ -13,7 +13,7 @@ let g:airline_theme='simple'
 "------------------------------------------------------------------------------
 " Standard stuff.
 "------------------------------------------------------------------------------
-set spell
+set nospell
 set smarttab						" use shiftwidth to set the width of tabs (at the beginning of lines?) 
 set expandtab						" uses spaces to fill in tabs in insert mode
 set laststatus=2				" Always show the status line
