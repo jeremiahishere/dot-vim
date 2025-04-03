@@ -86,9 +86,15 @@ set directory=~/.vim/tmp     " Where temporary files will go.
 " pretty sure this is no longer necessary
 " set runtimepath^=~/.vim/bundle/ctrlp.vim
 
-" Setup a line length reminder at the 100th column
-set textwidth=100
-set colorcolumn=+1
+" Setup a line length reminder at the 200th column
+" Softwrap visually but don't add line breaks
+" Not sure if this is a good idea
+set textwidth=0
+set wrapmargin=0
+set wrap
+set linebreak
+set columns=200
+set colorcolumn=195
 hi ColorColumn guibg=#2e2e2e ctermbg=006
 
 "------------------------------------------------------------------------------
